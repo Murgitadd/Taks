@@ -8,8 +8,8 @@ if (age <= 12 || age >= 60)
  else if (age >= 13 && age <=59)
 {
     Console.WriteLine("Are you a student (true/false)?");
-    bool answer = bool.Parse(Console.ReadLine());
-    if (answer == true)
+    bool isStudent = bool.Parse(Console.ReadLine());
+    if (isStudent == true)
     {
         Console.WriteLine($"ticket = 7.5AZN");
     }
